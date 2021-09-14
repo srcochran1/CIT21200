@@ -1,37 +1,86 @@
+*{
+    margin: 0;
+}
+
 html{
     background-color: rebeccapurple;
+    height: 200%;
 }
 
-.bxh1{
-    width: 400px;
-    color: white;
-    text-align: center;
-}
-
-
-.bxh2{
-    width: 800px;
-    color: orange;
-    text-align: right;
+body{
+    padding-top: 100px;
 }
 
 
-.boxa{
-    height: 100px;
-    width: 100px;
-    background-color: red;
+
+
+.con1{
+    height: 800px;
+    background-color: grey;
+    margin-bottom: 20px;
 }
 
-.boxb{
-    height: 400px;
-    width: 300px;
-    background-color: blue;
-    border: 2px solid red;
+
+.b1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
 }
 
-.boxc{
-    height: 600px;
-    width: 250px;
-    background-color: green;
-    border-radius: 6px;
+
+.b2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+.b3{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+.b4{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+.logo{
+    height: 80px;
+    width: 80px;
+    float: right;
+    position: relative;
+    background-color: black;
+}
+
+
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px;
+    border-color: black;
+    position: fixed;
+}
+
+
+nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-color: black;
+    box-shadow: 8px 8px 8px black;
+
 }
